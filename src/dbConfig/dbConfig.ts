@@ -13,7 +13,7 @@ export async function connect() {
         console.log('MongoDb connection error. Please Make sure MongoDb is running'+ err);
         process.exit()
         
-    })
+    }) 
 
   } catch (error) {
     console.log("Somthing goes wrong!");
